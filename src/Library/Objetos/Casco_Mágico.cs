@@ -12,3 +12,10 @@ namespace Library
           
           public int valorAtaque
             {
+                get
+                {
+                    return 0;
+                }
+          }
+    }
+}
