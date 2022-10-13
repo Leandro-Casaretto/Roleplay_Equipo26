@@ -7,6 +7,6 @@ namespace Library
 
         public void NuevoEchizo(Echizo echizo)
         {
-            this.Ataque += echizo.Ataque;
-            this.Defensa += echizo.Defensa;
+            this.Ataque += hechizo.Ataque;
+            this.Defensa += hechizo.Defensa;
         }
