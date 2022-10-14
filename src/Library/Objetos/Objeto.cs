@@ -8,15 +8,13 @@ namespace Library
         
         public int valorDefensa { get; set; } = 0;
         
-        public int Resistencia { get; set; } = 0;
         
         // A continuación le damos valor a los atributos
 
-        public Item(int valor_ataque, int valor_defensa, int resistencia)
+        public Item(int valor_ataque, int valor_defensa)
         {
             this.valorAtaque = valor_ataque;
             this.valorDefensa = valor_defensa;
-            this.Resistencia = resistencia;
         }
         
     }
