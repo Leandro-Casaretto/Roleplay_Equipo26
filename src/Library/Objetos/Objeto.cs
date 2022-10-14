@@ -2,9 +2,9 @@ using System;
 
 namespace Library
 {
-    public class Objeto
+    public class Objeto  // Creamos la clase y establecemos las properities
     {
-        public int valorAtaque { get; set; } = 0; 
+        public int valorAtaque { get; set; } = 0;  
         
         public int valorDefensa { get; set; } = 0;
         
@@ -18,3 +18,6 @@ namespace Library
             this.valorDefensa = valor_defensa;
             this.Resistencia = resistencia;
         }
+        
+    }
+ }
