@@ -3,7 +3,7 @@ namespace Library
 {
     public class Armadura
     {
-        public int ValorDefensa
+        public int valorDefensa
         {
             get
             {
@@ -11,11 +11,11 @@ namespace Library
             }
         }
     
-        public int ValorAtaque
+        public int valorAtaque
         {
             get
             {
-                return 0;  /// La armadura no ataca
+                return 0;  /// La armadura no tiene daño de ataque
             }
     
     }
